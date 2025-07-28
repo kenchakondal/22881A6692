@@ -12,7 +12,7 @@ import {
   Snackbar 
 } from '@mui/material';
 import { Link } from 'react-router-dom';
-import Log from '../../Logging Middleware/logger';
+import Log from '../middleware/logger';
 
 const ShortenerPage = () => {
   const [urls, setUrls] = useState([

@@ -4,7 +4,7 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import ShortenerPage from './pages/ShortenerPage';
 import StatsPage from './pages/StatsPage';
-import Log from '../Logging Middleware/logger';
+import Log from './middleware/logger';
 
 // Create a modern theme
 const theme = createTheme({
